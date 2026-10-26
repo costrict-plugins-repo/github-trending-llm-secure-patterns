@@ -1,0 +1,24 @@
+{
+  "name": "wildblue-ai",
+  "description": "WildBlue.AI plugins for Claude Code: secure design patterns for LLM applications.",
+  "owner": {
+    "name": "WildBlue.AI",
+    "email": "hello@wildblue.ai"
+  },
+  "plugins": [
+    {
+      "name": "llm-secure-patterns",
+      "source": "./",
+      "description": "Secure design patterns for Claude Code LLM applications mapped to OWASP Top 10 for LLM Apps 2025. Five model-invoked skills, a /report slash command, a SessionStart threat-bulletin hook, and Python templates.",
+      "version": "1.0.1",
+      "author": {
+        "name": "WildBlue.AI",
+        "email": "hello@wildblue.ai"
+      },
+      "homepage": "https://github.com/wildblue-ai/llm-secure-patterns",
+      "repository": "https://github.com/wildblue-ai/llm-secure-patterns",
+      "license": "MIT",
+      "keywords": ["security", "owasp", "llm", "ai-safety"]
+    }
+  ]
+}
